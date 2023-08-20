@@ -1,0 +1,26 @@
+.header__button{
+  all:unset;
+  width: 40px;
+  height: 12px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1000;
+}
+.header__button::before,
+.header__button::after {
+  content: '';
+  height: 4px;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+}
+.header__button::before{
+  top:0;
+}
+.header__button::after{
+  bottom:0;
+}
+.header__button:focus-visible{
+  outline: 2px solid #CDCED0;
+}
+

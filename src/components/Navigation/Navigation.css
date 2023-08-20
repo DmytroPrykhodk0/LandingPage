@@ -1,0 +1,17 @@
+.navigation__list{
+  display: flex;
+  list-style: none;
+}
+.navigation__list-item:not(:first-child){
+  margin-left: 48px;
+}
+.navigation__link{
+  text-decoration: none;
+  font-family: var(--secondary-ff);
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #272930;
+}
+.navigation__link:focus{
+  outline: 2px solid #CDCED0;
+}

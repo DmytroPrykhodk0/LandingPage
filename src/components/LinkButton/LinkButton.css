@@ -1,0 +1,31 @@
+.introduce__link-wrap{
+  display: flex;
+}
+.introduce__link-wrap:not(:first-child){
+  margin-left: 64px;
+}
+.introduce__link-primary{
+  padding: 13.5px 24.5px;
+  background: #FFFFFF;
+  border-radius:30px;
+  font-family: var(--secondary-ff);
+  font-weight: 600;
+  font-size: 20px;
+  color: #272930;
+  text-decoration: none;
+}
+.introduce__link-secondary{
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 862px) {
+  .introduce__link-wrap:not(:first-child){
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+}
