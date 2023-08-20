@@ -9,14 +9,13 @@
 }
 .item__number{
   font-weight: 400;
-  font-size: 32px;
+  font-size: 2rem;
   letter-spacing: 1px;
   color: #31343E;
 }
 .item__number-description{
   font-family: var(--secondary-ff);
   font-weight: 400;
-  font-size: 16px;
   color: #595A61;
   margin-top: 8px;
   word-spacing: -3px;

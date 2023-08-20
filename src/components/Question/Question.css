@@ -4,7 +4,7 @@
   border-radius: 50px;
   font-family: var(--secondary-ff);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 22px 24px 22px 24px;
   position: relative;
   display: flex;
@@ -65,16 +65,16 @@
 }
 @media only screen and (max-width: 768px) {
   .question__item{
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 }
 @media only screen and (max-width: 580px) {
   .question__item{
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 }
 @media only screen and (max-width: 480px) {
   .question__item{
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
